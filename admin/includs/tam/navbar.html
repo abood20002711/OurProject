@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=\, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/admin/layout/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/admin/layout/css/style.css">
+  <link rel="stylesheet" href="/admin/layout/css/FrameWork.css">
+  <link rel="stylesheet" href="/admin/layout/css/all.min.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Cairo:wght@300;400;700&family=Epilogue:wght@400;600;700&family=Merienda+One&family=Montserrat:wght@300;700&family=Nunito:wght@300;400;600&family=Poppins:wght@500;600&family=Raleway:wght@400;500;600&family=Roboto:wght@100;300;400;500;700&family=Space+Mono&display=swap"
+    rel="stylesheet">
+  <!-- Hambargers css -->
+  <link rel="stylesheet" href="/admin/layout/css/Hambargers.css">
+  <link rel="stylesheet" href="/admin/layout/css/hamburgers/hamburgers.css">
+
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="container">
+      <a class="logo" href="">LOGO</a>
+
+      <div class="search">
+        <span class="i-ser"><i class="fa fa-search" aria-hidden="true"></i></span>
+        <input id="search" type="search" class="form-control" placeholder="Search any thing">
+        <span onclick="clear_fild()" class="i-remo" id="search"><i class="fa-solid fa-xmark"></i></span>
+      </div>
+
+      <ul>
+        <li><a class="loginbtn ">Log in</a></li>
+        <li><a href="" class="favourites"><i class="fa-regular fa-heart"></i></a></li>
+        <li><a href="" class="user"><i class="fa-regular fa-user"></i></a></li>
+        <li><a href="" class="cart"><i class="fa-solid fa-cart-shopping"></i></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Start mega menu -->
+  <div class="mega-menu">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="hamburger hamburger--collapse " id="hamburger">
+        <div class="hamburger-box">
+          <div class="hamburger-inner"></div>
+        </div>
+      </div>
+      <div class="memu"></div>
+      <ul class="menu-main">
+        <div class="mobile-menu-head">
+          <div class="go-back"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+          <div class="currnet-menu-title">Shop</div>
+          <div class="close-menu">&times;</div>
+        </div>
+        <li class="has-children"><a>Jewelry and accessories </a>
+          <i class="fa fa-angle-down"></i>
+          <div class="sub-menu" id="sub-menu">
+            <ul>
+              <li><a>rings</a>
+                <ul>
+                  <li><a href="">Rings with various stones</a></li>
+                  <li><a href="">stackable rings</a></li>
+                  <li><a href="">Alliances</a></li>
+                  <li><a href="">Lonely</a></li>
+                </ul>
+              </li>
+              <li><a href="">Earrings</a>
+                <ul>
+                  <li><a href="">Rings with various stones</a></li>
+                  <li><a href="">stackable rings</a></li>
+                  <li><a href="">Alliances</a></li>
+                  <li><a href="">Lonely</a></li>
+                </ul>
+              </li>
+              <li><a href="">necklaces</a>
+                <ul>
+                  <li><a href="">Rings with various stones</a></li>
+                  <li><a href="">stackable rings</a></li>
+                  <li><a href="">Alliances</a></li>
+                  <li><a href="">Lonely</a></li>
+                </ul>
+              </li>
+              <li><a href="">bracelets</a>
+                <ul>
+                  <li><a href="">Rings with various stones</a></li>
+                  <li><a href="">stackable rings</a></li>
+                  <li><a href="">Alliances</a></li>
+                  <li><a href="">Lonely</a></li>
+                </ul>
+              </li>
+              <li><a href="">Jewelry and body jewelry</a>
+                <ul>
+                  <li><a href="">Rings with various stones</a></li>
+                  <li><a href="">stackable rings</a></li>
+                  <li><a href="">Alliances</a></li>
+                  <li><a href="">Lonely</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="has-children"><a>Clothes and shoes </a><i class="fa fa-angle-down"></i>
+
+        </li>
+        <li class="has-children"><a>home and decoration</a><i class="fa fa-angle-down"></i></li>
+        <li class="has-children"><a>toys and leisure</a><i class="fa fa-angle-down"></i></li>
+        <li class="has-children"><a>Art and collectibles </a><i class="fa fa-angle-down"></i></li>
+        <li class="has-children"><a>Tools </a><i class="fa fa-angle-down"></i>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </div>
+
+  <div class="bodys">
+    <!-- Start Slider -->
+    <div class="slider slide-fade">
+      <div class="slider-inner">
+        <div class="slider-item item-active">
+          <img src="/admin/layout/imges/23_WK37_HP1-Office-Desktop_1_NEW.jpg" alt="" class="slide-img">
+        </div>
+        <div class="slider-item ">
+          <img src="/admin/layout/imges/23_WK37_HP1-Office-Desktop_2.jpg" alt="" class="slide-img">
+        </div>
+        <div class="slider-item">
+          <img src="/admin/layout/imges/23_WK37_HP1-Office-Desktop_3.jpg" alt="" class="slide-img">
+        </div>
+      </div>
+      <div class="slide-dots">
+        <button class="dot "></button>
+        <button class="dot"></button>
+        <button class="dot "></button>
+      </div>
+    </div>
+    <!-- End Slider -->
+    <!-- Start Featured -->
+    <div class="featured">
+        <div class="row">
+          <div class="col">
+            <i class="fa-solid fa-truck"></i>
+            <div class="content">
+              <p>Free Shipping</p>
+              <span>Free fot all prodact</span>
+            </div>
+          </div>
+          <div class="col">
+            <i class="fa-solid fa-sack-dollar"></i>
+            <div class="content">
+              <p>MonyGuarnte</p>
+              <span>Mony Back Guarnte</span>
+            </div>
+          </div>
+          <div class="col">
+            <i class="fa-solid fa-shield-heart"></i>
+            <div class="content">
+              <p>Safe Shopping</p>
+              <span>Enjoy Safe Shopping</span>
+            </div>
+          </div>
+          <div class="col">
+            <i class="fa-solid fa-headset"></i>
+            <div class="content">
+              <p>Online Support</p>
+              <span>24/7 we provide online support</span>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- End Featured -->
+    <!-- Start Advertising  -->
+    <div class="advertising">
+      <div class="row">
+        <div class="cols">
+          <a href="#">
+            <img src="/admin/layout/imges/WhatsApp Image 2023-03-21 at 10.36.06 PM.jpeg" alt="" class="ads-img" >
+          </a>
+        </div>
+        <div class="cols">
+          <a href="#">
+            <img src="/admin/layout/imges/8e2a65b080c0bb3fd4c98ccaff6fec17.jpg" alt="" class="ads-img">
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- End Advertising  -->
+  </div>
+  </div>
+  <script src="/admin/layout/js/backend.js"></script>
+</body>
+
+</html>
